@@ -57,7 +57,7 @@
             // 
             this.outputLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.White;
-            this.outputLabel.Location = new System.Drawing.Point(16, 30);
+            this.outputLabel.Location = new System.Drawing.Point(12, 45);
             this.outputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(567, 96);
@@ -102,6 +102,7 @@
             this.collectButton.TabIndex = 17;
             this.collectButton.Text = "Collect";
             this.collectButton.UseVisualStyleBackColor = false;
+            this.collectButton.Click += new System.EventHandler(this.collectButton_Click);
             // 
             // dealButton
             // 
@@ -117,6 +118,7 @@
             this.dealButton.TabIndex = 14;
             this.dealButton.Text = "Deal";
             this.dealButton.UseVisualStyleBackColor = false;
+            this.dealButton.Click += new System.EventHandler(this.dealButton_Click);
             // 
             // shuffleButton
             // 
@@ -132,6 +134,7 @@
             this.shuffleButton.TabIndex = 13;
             this.shuffleButton.Text = "Shuffle";
             this.shuffleButton.UseVisualStyleBackColor = false;
+            this.shuffleButton.Click += new System.EventHandler(this.shuffleButton_Click);
             // 
             // playerCardsLabel
             // 
