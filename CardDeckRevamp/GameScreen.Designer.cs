@@ -37,6 +37,7 @@
             this.shuffleButton = new System.Windows.Forms.Button();
             this.playerCardsLabel = new System.Windows.Forms.Label();
             this.dealerCardsLabel = new System.Windows.Forms.Label();
+            this.timeLabel = new System.Windows.Forms.Label();
             this.availableBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,11 +161,22 @@
             this.dealerCardsLabel.TabIndex = 15;
             this.dealerCardsLabel.Text = "--";
             // 
+            // timeLabel
+            // 
+            this.timeLabel.AutoSize = true;
+            this.timeLabel.ForeColor = System.Drawing.Color.White;
+            this.timeLabel.Location = new System.Drawing.Point(483, 19);
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Size = new System.Drawing.Size(41, 16);
+            this.timeLabel.TabIndex = 21;
+            this.timeLabel.Text = "Time:";
+            // 
             // GameScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
+            this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.availableBox);
             this.Controls.Add(this.playerLabel);
             this.Controls.Add(this.dealerLabel);
@@ -192,5 +204,6 @@
         private System.Windows.Forms.Button shuffleButton;
         private System.Windows.Forms.Label playerCardsLabel;
         private System.Windows.Forms.Label dealerCardsLabel;
+        private System.Windows.Forms.Label timeLabel;
     }
 }

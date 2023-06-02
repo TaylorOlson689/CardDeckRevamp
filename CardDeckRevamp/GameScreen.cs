@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace CardDeckRevamp
 {
@@ -15,9 +16,14 @@ namespace CardDeckRevamp
         List<string> deck = new List<string>();
         List<string> playerCards = new List<string>();
         List<string> dealerCards = new List<string>();
+
+        //int time;
+        
         public GameScreen()
         {
             InitializeComponent();
+            //gameTimer.Enabled = true;
+            //timeLabel.Text = 
 
             //fill deck with standard 52 cards
             //H - Hearts, D - Diamonds, C - Clubs, S - Spades

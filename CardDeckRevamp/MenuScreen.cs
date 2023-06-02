@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace CardDeckRevamp
 {
@@ -30,13 +31,18 @@ namespace CardDeckRevamp
 
         private void leaderButton_Click(object sender, EventArgs e)
         {
-            //LeaderBoardScreen gs = new LeaderBoardScreen();
-            //Form form = this.FindForm();
+            LeaderBoardScreen gs = new LeaderBoardScreen();
+            Form form = this.FindForm();
 
-            //form.Controls.Add(gs);
-            //form.Controls.Remove(this);
+            form.Controls.Add(gs);
+            form.Controls.Remove(this);
 
-            //gs.Location = new Point((form.Width - gs.Width) / 2, (form.Height - gs.Height) / 2);
+            gs.Location = new Point((form.Width - gs.Width) / 2, (form.Height - gs.Height) / 2);
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -35,18 +35,19 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(147, 319);
+            this.exitButton.Location = new System.Drawing.Point(147, 301);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(355, 47);
+            this.exitButton.Size = new System.Drawing.Size(355, 30);
             this.exitButton.TabIndex = 5;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // leaderButton
             // 
             this.leaderButton.Location = new System.Drawing.Point(147, 247);
             this.leaderButton.Name = "leaderButton";
-            this.leaderButton.Size = new System.Drawing.Size(355, 60);
+            this.leaderButton.Size = new System.Drawing.Size(355, 39);
             this.leaderButton.TabIndex = 4;
             this.leaderButton.Text = "Leaderboard";
             this.leaderButton.UseVisualStyleBackColor = true;
@@ -54,9 +55,9 @@
             // 
             // playButton
             // 
-            this.playButton.Location = new System.Drawing.Point(147, 178);
+            this.playButton.Location = new System.Drawing.Point(147, 196);
             this.playButton.Name = "playButton";
-            this.playButton.Size = new System.Drawing.Size(355, 60);
+            this.playButton.Size = new System.Drawing.Size(355, 42);
             this.playButton.TabIndex = 3;
             this.playButton.Text = "Play ";
             this.playButton.UseVisualStyleBackColor = true;
