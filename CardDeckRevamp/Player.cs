@@ -9,9 +9,11 @@ namespace CardDeckRevamp
 {
     internal class Player
     {
+        #region
         string playerType;
 
         Boolean cardCounterP; //player card counter
         Boolean cardCounterC; //computer card counter
+        #endregion
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using System.Diagnostics;
 
 namespace CardDeckRevamp
 {
@@ -34,6 +35,11 @@ namespace CardDeckRevamp
             deck.AddRange(new string[] { "2S", "3S", "4S", "5S", "6S", "7S", "8S", "9S", "10S", "JS", "QS", "KS", "AS" });
 
             ShowDeck();
+
+            Stopwatch gameWatch = new Stopwatch();
+
+            gameWatch.Start();
+            timeLabel.Text = Convert.ToString(gameWatch.Elapsed);
         }
         private void shuffleButton_Click(object sender, EventArgs e)
         {

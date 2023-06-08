@@ -20,24 +20,24 @@ namespace CardDeckRevamp
 
         private void playButton_Click(object sender, EventArgs e)
         {
-            GameScreen gs = new GameScreen();
-            Form form = this.FindForm();
+           EnterName ens = new EnterName();
+           Form form = this.FindForm();
 
-            form.Controls.Add(gs);
+            form.Controls.Add(ens);
             form.Controls.Remove(this);
 
-            gs.Location = new Point((form.Width - gs.Width) / 2, (form.Height - gs.Height) / 2);
+            ens.Location = new Point((form.Width - ens.Width) / 2, (form.Height - ens.Height) / 2);
         }
 
         private void leaderButton_Click(object sender, EventArgs e)
         {
-            LeaderBoardScreen gs = new LeaderBoardScreen();
+            LeaderBoardScreen lbs = new LeaderBoardScreen();
             Form form = this.FindForm();
 
-            form.Controls.Add(gs);
+            form.Controls.Add(lbs);
             form.Controls.Remove(this);
 
-            gs.Location = new Point((form.Width - gs.Width) / 2, (form.Height - gs.Height) / 2);
+            lbs.Location = new Point((form.Width - lbs.Width) / 2, (form.Height - lbs.Height) / 2);
         }
 
         private void exitButton_Click(object sender, EventArgs e)

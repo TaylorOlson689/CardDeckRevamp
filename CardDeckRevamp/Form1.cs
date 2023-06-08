@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using System.Diagnostics;
 
 namespace CardDeckRevamp
 {
@@ -17,13 +18,9 @@ namespace CardDeckRevamp
         {
             MenuScreen ms = new MenuScreen();
             this.Controls.Add(ms);
-
+            ms.Focus();
+            
             ms.Location = new Point((this.Width - ms.Width) / 2, (this.Height - ms.Height) / 2);
-        }
-
-        public void gameTimer_Tick(object sender, EventArgs e)
-        {
-                
         }
     }
 }
