@@ -29,10 +29,5 @@ namespace CardDeckRevamp
 
             gs.Location = new Point((form.Width - gs.Width) / 2, (form.Height - gs.Height) / 2);
         }
-
-        private void nameInput_TextChanged(object sender, EventArgs e)
-        {
-            //nameInput.Text
-        }
     }
 }

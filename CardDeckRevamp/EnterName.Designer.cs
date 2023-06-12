@@ -35,13 +35,14 @@
             // 
             // playButton
             // 
+            this.playButton.BackColor = System.Drawing.Color.White;
             this.playButton.Location = new System.Drawing.Point(135, 228);
             this.playButton.Name = "playButton";
             this.playButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.playButton.Size = new System.Drawing.Size(155, 65);
             this.playButton.TabIndex = 0;
             this.playButton.Text = "Play";
-            this.playButton.UseVisualStyleBackColor = true;
+            this.playButton.UseVisualStyleBackColor = false;
             this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
             // nameInput
@@ -50,11 +51,11 @@
             this.nameInput.Name = "nameInput";
             this.nameInput.Size = new System.Drawing.Size(160, 22);
             this.nameInput.TabIndex = 1;
-            this.nameInput.TextChanged += new System.EventHandler(this.nameInput_TextChanged);
             // 
             // nameOutput
             // 
             this.nameOutput.AutoSize = true;
+            this.nameOutput.ForeColor = System.Drawing.Color.White;
             this.nameOutput.Location = new System.Drawing.Point(122, 86);
             this.nameOutput.Name = "nameOutput";
             this.nameOutput.Size = new System.Drawing.Size(137, 16);
