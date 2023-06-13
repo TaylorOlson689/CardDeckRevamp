@@ -72,6 +72,7 @@
             this.Controls.Add(this.playButton);
             this.Name = "EnterName";
             this.Size = new System.Drawing.Size(470, 425);
+            this.Load += new System.EventHandler(this.EnterName_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
