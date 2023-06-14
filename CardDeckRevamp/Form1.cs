@@ -19,7 +19,7 @@ namespace CardDeckRevamp
             MenuScreen ms = new MenuScreen();
             this.Controls.Add(ms);
             ms.Focus();
-            
+
             ms.Location = new Point((this.Width - ms.Width) / 2, (this.Height - ms.Height) / 2);
         }
     }
