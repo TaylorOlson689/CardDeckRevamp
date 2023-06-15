@@ -103,5 +103,14 @@ namespace CardDeckRevamp
                 outputLabel.Text += $"{deck[i]} ";
             }
         }
+
+        private void endButton_Click(object sender, EventArgs e)
+        {
+            GameOverScreen gos = new GameOverScreen();
+            this.Controls.Add(gos);
+            gos.Focus();
+
+            gos.Location = new Point((this.Width - gos.Width) / 2, (this.Height - gos.Height) / 2);
+        }
     }
 }

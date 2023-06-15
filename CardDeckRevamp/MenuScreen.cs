@@ -30,17 +30,6 @@ namespace CardDeckRevamp
             ens.Location = new Point((form.Width - ens.Width) / 2, (form.Height - ens.Height) / 2);
         }
 
-        private void leaderButton_Click(object sender, EventArgs e)
-        {
-            LeaderBoardScreen lbs = new LeaderBoardScreen();
-            Form form = this.FindForm();
-
-            form.Controls.Add(lbs);
-            form.Controls.Remove(this);
-
-            lbs.Location = new Point((form.Width - lbs.Width) / 2, (form.Height - lbs.Height) / 2);
-        }
-
         private void exitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();

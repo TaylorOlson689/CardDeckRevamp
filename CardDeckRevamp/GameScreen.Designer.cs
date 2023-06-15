@@ -37,6 +37,7 @@
             this.shuffleButton = new System.Windows.Forms.Button();
             this.playerCardsLabel = new System.Windows.Forms.Label();
             this.dealerCardsLabel = new System.Windows.Forms.Label();
+            this.endButton = new System.Windows.Forms.Button();
             this.availableBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,11 +161,22 @@
             this.dealerCardsLabel.TabIndex = 15;
             this.dealerCardsLabel.Text = "--";
             // 
+            // endButton
+            // 
+            this.endButton.Location = new System.Drawing.Point(496, 33);
+            this.endButton.Name = "endButton";
+            this.endButton.Size = new System.Drawing.Size(75, 23);
+            this.endButton.TabIndex = 21;
+            this.endButton.Text = "End";
+            this.endButton.UseVisualStyleBackColor = true;
+            this.endButton.Click += new System.EventHandler(this.endButton_Click);
+            // 
             // GameScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
+            this.Controls.Add(this.endButton);
             this.Controls.Add(this.availableBox);
             this.Controls.Add(this.playerLabel);
             this.Controls.Add(this.dealerLabel);
@@ -192,5 +204,6 @@
         private System.Windows.Forms.Button shuffleButton;
         private System.Windows.Forms.Label playerCardsLabel;
         private System.Windows.Forms.Label dealerCardsLabel;
+        private System.Windows.Forms.Button endButton;
     }
 }
