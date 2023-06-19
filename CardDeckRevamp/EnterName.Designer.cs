@@ -36,7 +36,7 @@
             // playButton
             // 
             this.playButton.BackColor = System.Drawing.Color.White;
-            this.playButton.Location = new System.Drawing.Point(135, 228);
+            this.playButton.Location = new System.Drawing.Point(190, 228);
             this.playButton.Name = "playButton";
             this.playButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.playButton.Size = new System.Drawing.Size(155, 65);
@@ -47,7 +47,7 @@
             // 
             // nameInput
             // 
-            this.nameInput.Location = new System.Drawing.Point(125, 167);
+            this.nameInput.Location = new System.Drawing.Point(190, 167);
             this.nameInput.Name = "nameInput";
             this.nameInput.Size = new System.Drawing.Size(160, 22);
             this.nameInput.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             this.nameOutput.AutoSize = true;
             this.nameOutput.ForeColor = System.Drawing.Color.White;
-            this.nameOutput.Location = new System.Drawing.Point(122, 86);
+            this.nameOutput.Location = new System.Drawing.Point(196, 86);
             this.nameOutput.Name = "nameOutput";
             this.nameOutput.Size = new System.Drawing.Size(137, 16);
             this.nameOutput.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.Controls.Add(this.nameInput);
             this.Controls.Add(this.playButton);
             this.Name = "EnterName";
-            this.Size = new System.Drawing.Size(470, 425);
+            this.Size = new System.Drawing.Size(621, 425);
             this.Load += new System.EventHandler(this.EnterName_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

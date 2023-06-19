@@ -34,9 +34,9 @@
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(239, 253);
+            this.backButton.Location = new System.Drawing.Point(185, 202);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(122, 45);
+            this.backButton.Size = new System.Drawing.Size(278, 114);
             this.backButton.TabIndex = 0;
             this.backButton.Text = "Return to Main Screen";
             this.backButton.UseVisualStyleBackColor = true;
@@ -45,10 +45,11 @@
             // overLabel
             // 
             this.overLabel.AutoSize = true;
+            this.overLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.overLabel.ForeColor = System.Drawing.Color.White;
-            this.overLabel.Location = new System.Drawing.Point(193, 121);
+            this.overLabel.Location = new System.Drawing.Point(176, 117);
             this.overLabel.Name = "overLabel";
-            this.overLabel.Size = new System.Drawing.Size(87, 16);
+            this.overLabel.Size = new System.Drawing.Size(287, 52);
             this.overLabel.TabIndex = 1;
             this.overLabel.Text = "GAME OVER";
             // 
@@ -60,7 +61,7 @@
             this.Controls.Add(this.overLabel);
             this.Controls.Add(this.backButton);
             this.Name = "GameOverScreen";
-            this.Size = new System.Drawing.Size(594, 564);
+            this.Size = new System.Drawing.Size(621, 425);
             this.ResumeLayout(false);
             this.PerformLayout();
 
