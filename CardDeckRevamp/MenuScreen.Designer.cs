@@ -61,8 +61,8 @@
             this.noteLabel.Name = "noteLabel";
             this.noteLabel.Size = new System.Drawing.Size(524, 114);
             this.noteLabel.TabIndex = 6;
-            this.noteLabel.Text = "NOTE: Due to some testing issues, the leaderboard has been cut off. There are sti" +
-    "ll a few adjustments made for some enjoyment";
+            this.noteLabel.Text = "NOTE: Due to some testing issues, the proposed leaderboard has been cut off. Ther" +
+    "e are still a few adjustments made for some enjoyment. ";
             // 
             // nameLabel
             // 
